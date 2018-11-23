@@ -1,0 +1,132 @@
+.formulario {
+  padding: 0 0 2rem 2rem;
+  /* background-color: #84bde4; */
+  box-sizing: border-box;
+}
+
+hr {
+    color: #034977cb;
+    margin: 1.25rem 0;
+}
+
+.titulo2 {
+  text-align: left;
+}
+
+.titulo3 {
+  text-align: center;
+  color: #034977;
+}
+
+.entrada-segunda{margin-left: 40px;}
+
+.etiqueta {
+    width: 20.475rem; /*327.6px*/
+}
+
+.etiqueta-i {
+    width: 25rem; /*400px*/
+    margin: 1px;
+}
+
+.div-label {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.div-input {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+
+
+.div-label-i {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.div-input-i {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.5rem;
+}
+
+input[type="text"] {
+    border-style: none;
+    -webkit-border-style: none;
+    border-bottom: 0.4rem solid #1468a8;
+    border-radius: 0.5rem;
+    background-color: rgb(207, 207, 207);
+    color: #0a3758;
+    font-size: 1.1rem;
+    padding: .3rem;
+    text-align: center;
+}
+
+input[type="date"] {
+    border-style: none;
+    -webkit-border-style: none;
+    border-bottom: 0.4rem solid #1468a8;
+    border-radius: 0.5rem;
+    background-color: rgb(207, 207, 207);
+    color: #0a3758;
+    font-size: 1.1rem;
+    padding: .3rem;
+    text-align: center;
+    width: 17.375rem; /*278px*/
+}
+
+input[type="number"] {
+    border-style: none;
+    -webkit-border-style: none;
+    border-bottom: 0.4rem solid #1468a8;
+    border-radius: 0.5rem;
+    background-color: rgb(207, 207, 207);
+    color: #0a3758;
+    font-size: 1.1rem;
+    padding: .3rem;
+    text-align: center;
+    width: 25rem;
+}
+
+.div-input-i input[type="text"] { 
+    width: 25rem; 
+}
+
+.div-input-i input[type="date"] { 
+    width: 25rem; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton button {
+    padding: 0.625rem;
+    background-color: #1468a8;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    width: 9.375rem; /* 150px */
+}
+
+.boton button:hover {
+    padding: 0.625rem;
+    background-color: rgba(20, 104, 168, .9);
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 18.75rem; /* 150px */
+    transition: width 0.999ms;
+}
